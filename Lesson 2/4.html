@@ -31,7 +31,59 @@
     <script>
       "use strict";
 
-      // Здесь пишем решение, данный комментарий необходимо стереть.
+      /**
+       * Function returns sum of two numbers
+       * @param {number} num1 first number
+       * @param {number} num2 second number
+       * @returns {number}
+      */
+      function plus(num1, num2) {
+        return num1 + num2;
+      }
+      
+      /**
+       * Function identifies bigger number then
+       * returns subtraction of numbers,
+       * if both numbers are equal it will return 0
+       * 
+       * @param {number} num1 first number
+       * @param {number} num2 second number
+       * @returns {number}
+      */
+      function minus(num1, num2) {
+        if (num1 > num2) {
+          return num1 - num2;
+        } else if (num2 > num1) {
+          return num2 - num1;
+        } else {
+          return 0;
+        }
+      }
+
+      /**
+       * Function returns multiplication of two numbers
+       * @param {number} num1 first number
+       * @param {number} num2 second number
+       * @returns {number}
+      */
+      function multiply(num1, num2) {
+        return num1 * num2;
+      }
+
+      /**
+       * Function returns division of two numbers
+       * @param {number} num1 first number
+       * @param {number} num2 second number
+       * @returns {number}
+      */
+      function divide(num1, num2) {
+        return num1 / num2;
+      }
+
+      console.log(plus(2, 5)); // 7
+      console.log(minus(9, 5)); // 4
+      console.log(multiply(6, 3)); // 18
+      console.log(divide(21, 3)) // 7
     </script>
   </body>
 </html>
