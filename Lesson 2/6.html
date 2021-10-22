@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Homework</title>
+</head>
+<body>
+<!--
+Необязательное задание.
+
+Необходимо реализовать функцию, которая будет принимать первым аргументом
+целое положительное число, в следующих трех аргументах функция принимает слова
+в разных склонениях.
+Функция должна возвращать одно из трех переданных в параметры слов подходящее
+под число, которое передано первым аргументом.
+
+Пример:
+console.log(declinationOfNumber(1, "яблоко", "яблока", "яблок"); // "яблоко"
+console.log(declinationOfNumber(2, "мяч", "мяча", "мячей"); // "мяча"
+console.log(declinationOfNumber(5, "стул", "стула", "стульев"); // "стульев"
+
+Функция должна работать с любым словом и любым целым положительным числом.
+Все аргументы, которые будут передаваться функции будут верны.
+-->
+    <script>
+      "use strict";
+
+      /**
+       * Function returns item from array by order number.
+       * If index number is bigger than array's length, it returns last item
+       * @param {number} index order number of item
+       * @param {string} args can transfer unlimited number of items
+       * @returns {string}
+      */
+      function declinationOfNumber(index, ...args) {
+        if (index > 0 && index <= args.length) {
+          return args[index - 1]
+        }
+        else if (index > 0) {
+          let l = args.length
+          return args[l - 1]
+        }
+        
+      }
+
+      console.log(declinationOfNumber(1, "яблоко", "яблока", "яблок")) // "яблоко"
+      console.log(declinationOfNumber(2, "мяч", "мяча", "мячей")) // "мяча"
+      console.log(declinationOfNumber(8, "стул", "стула", "стульев")) // "стульев" 
+
+  
+    </script>
+  </body>
+</html>
