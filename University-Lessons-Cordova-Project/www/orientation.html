@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta
+      name="viewport"
+      content="initial-scale=1, width=device-width, viewport-fit=cover"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Orientation</title>
+    <link rel="stylesheet" href="css/orientation.css" />
+    <script src="js/orientation.js"></script>
+    <script src="cordova.js"></script>
+  </head>
+  <body>
+    <div class="menu-buttons">
+      <img id="gif" src="img/portrait-primary.gif" alt="gif" width="200px" />
+      <button onclick="window.location.href='index.html'">Home</button>
+      <button onclick="onBatteryStatus()">BATTERY SATTUS</button>
+      <button onclick="getPosition()">CURRENT POSITION</button>
+      <button onclick="watchPosition()">WATCH POSITION</button>
+      <button onclick="checkConnection()">CHECK CONNECTION</button>
+      <button onclick="vibration()">zzzz----zzzz----zzzz</button>
+    </div>
+  </body>
+</html>

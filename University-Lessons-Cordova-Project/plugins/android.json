@@ -1,0 +1,48 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.ilhom.helloworld"
+    },
+    "cordova-plugin-camera": {
+      "ANDROID_SUPPORT_V4_VERSION": "27.+",
+      "PACKAGE_NAME": "com.ilhom.helloworld"
+    },
+    "cordova-plugin-device-orientation": {
+      "PACKAGE_NAME": "com.ilhom.helloworld"
+    },
+    "cordova-plugin-geolocation": {
+      "GPS_REQUIRED": "true",
+      "PACKAGE_NAME": "com.ilhom.helloworld"
+    },
+    "cordova-plugin-media": {
+      "PACKAGE_NAME": "com.ilhom.helloworld"
+    },
+    "cordova-plugin-screen-orientation": {
+      "PACKAGE_NAME": "com.ilhom.helloworld"
+    },
+    "cordova-plugin-battery-status": {
+      "PACKAGE_NAME": "com.ilhom.helloworld"
+    },
+    "cordova-plugin-network-information": {
+      "PACKAGE_NAME": "com.ilhom.helloworld"
+    },
+    "cordova-plugin-vibration": {
+      "PACKAGE_NAME": "com.ilhom.helloworld"
+    }
+  },
+  "dependent_plugins": {
+    "cordova-plugin-file": {
+      "PACKAGE_NAME": "com.ilhom.helloworld"
+    },
+    "es6-promise-plugin": {
+      "PACKAGE_NAME": "com.ilhom.helloworld"
+    }
+  }
+}
